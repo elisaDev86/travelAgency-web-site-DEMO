@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>La mia agenzia viaggi</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <img src="./asset/logo.png" alt="logo" id="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3"> 
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#offerta-della-settimana">Offerte della settimana</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#welcome-summer">Welcome Summer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#offerta-del-giorno">Offerta del giorno</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#last-minute">Last Minute</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonial">Testimonial</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+          <!-- Sezione Jumbotron -->
+          <div class="container bg-white mt-4 p-5 rounded border border-primary"> 
+              <h1>La tua agenzia!</h1>
+              <hr>
+              <p>Prenota da noi</p>
+              <button class="btn btn-outline-primary" type="submit">Prenota qui</button> 
+          </div>
+    </header>
+    <div class="container">
+        <!-- Offerta della settimana -->
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 id="offerta-della-settimana" class="mb-0">Offerta della settimana</h2>
+            <button class="btn btn-secondary float-end" type="button" data-bs-toggle="collapse" data-bs-target="#offertaSection" aria-expanded="false" aria-controls="offertaSection">
+                Collapse
+            </button>
+        </div>
+        
+        <div id="offertaSection" class="collapse show">
+            <div class="row mt-3">
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card h-100" style="width: 100%;">
+                        <img src="./asset/cairo.webp" class="card-img-top" alt="cairo">
+                        <div class="card-body">
+                            <h5 class="card-title">Cairo</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card h-100" style="width: 100%;">
+                        <img src="./asset/dubai.webp" class="card-img-top" alt="dubai">
+                        <div class="card-body">
+                            <h5 class="card-title">Dubai</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card h-100" style="width: 100%;">
+                        <img src="./asset/londra.avif" class="card-img-top" alt="londra">
+                        <div class="card-body">
+                            <h5 class="card-title">Londra</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                    <div class="card h-100" style="width: 100%;">
+                        <img src="./asset/new-york.webp" class="card-img-top" alt="ny">
+                        <div class="card-body">
+                            <h5 class="card-title">New York</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <a href="#" class="btn btn-primary">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!--welcome summer-->
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h2 id="welcome-summer" class="mb-0">Welcome summer</h2>
+                <button class="btn btn-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#summerSection" aria-expanded="false" aria-controls="summerSection">
+                    Collapse
+                </button>
+            </div>
+        
+            <div id="summerSection" class="collapse show">
+                <div class="container my-5">
+                    <div class="row">
+                        <!-- Card 1 -->
+                        <div class="col-12 col-md-4 col-lg-2 mb-4">
+                            <div class="card h-100">
+                                <img src="./asset1/amsterdam.webp" class="card-img-top" alt="amsterdam">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="card-title mb-0">Torino</h5>
+                                        <span class="badge rounded-pill bg-danger text-light ms-2">HOT</span> 
+                                    </div>
+                                    <p class="card-text mt-2">L'Europa in un click</p>
+                                    <a href="#" class="btn btn-primary">Prenota ora</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div class="col-12 col-md-4 col-lg-2 mb-4">
+                            <div class="card h-100">
+                                <img src="./asset1/berlino.webp" class="card-img-top" alt="Berlino">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="card-title">Berlino</h5>
+                                        <span class="badge rounded-pill bg-danger text-light ms-2">HOT</span> 
+                                    </div>
+                                    <p class="card-text">L'Europa in un click</p>
+                                    <a href="#" class="btn btn-primary">Prenota ora</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div class="col-12 col-md-4 col-lg-2 mb-4">
+                            <div class="card h-100">
+                                <img src="./asset1/oslo.avif" class="card-img-top" alt="Oslo">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="card-title">Oslo</h5>
+                                        <span class="badge rounded-pill bg-danger text-light ms-2">HOT</span> 
+                                    </div>
+                                    <p class="card-text">L'Europa in un click</p>
+                                    <a href="#" class="btn btn-primary">Prenota ora</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 4 -->
+                        <div class="col-12 col-md-4 col-lg-2 mb-4">
+                            <div class="card h-100">
+                                <img src="./asset1/parigi.avif" class="card-img-top" alt="parigi">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="card-title">Parigi</h5>
+                                        <span class="badge rounded-pill bg-danger text-light ms-2">HOT</span> 
+                                    </div>
+                                    <p class="card-text">L'Europa in un click</p>
+                                    <a href="#" class="btn btn-primary">Prenota ora</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 5 -->
+                        <div class="col-12 col-md-4 col-lg-2 mb-4">
+                            <div class="card h-100">
+                                <img src="./asset1/roma.avif" class="card-img-top" alt="roma">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="card-title">Roma</h5>
+                                        <span class="badge rounded-pill bg-danger text-light ms-2">HOT</span> 
+                                    </div>
+                                    <p class="card-text">L'Europa in un click</p>
+                                    <a href="#" class="btn btn-primary">Prenota ora</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Card 6 -->
+                        <div class="col-12 col-md-4 col-lg-2 mb-4">
+                            <div class="card h-100">
+                                <img src="./asset1/vienna.avif" class="card-img-top" alt="vienna">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <h5 class="card-title">Vienna</h5>
+                                        <span class="badge rounded-pill bg-danger text-light ms-2">HOT</span> 
+                                    </div>
+                                    <p class="card-text">L'Europa in un click</p>
+                                    <a href="#" class="btn btn-primary">Prenota ora</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--offerta del giorno-->
+    <div class="container d-flex justify-content-center my-4" id="offerta-del-giorno">
+        <div class="card p-4 mb-3 text-center shadow-lg" style="max-width: 900px;">
+          <div class="row g-0">
+            <!-- colonna immagine -->
+            <div class="col-md-6">
+              <img src="./polinesia/polinesia.webp" class="img-fluid h-100 w-100 rounded-start" alt="polinesia" style="object-fit: cover;">
+            </div>
+            <!-- colonna contenuto testo -->
+            <div class="col-md-6 d-flex align-items-center">
+              <div class="card-body">
+                <h1 class="card-title display-4">Magica Polinesia</h1>
+                <span class="badge rounded-pill bg-primary mb-3 fs-4">Best offer</span>
+                <p class="card-text fs-4">15.01.2025 — 31.01.2025</p>
+                <p class="card-text fs-5"><small class="text-muted">Prezzi super scontati</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+          <!--last minute-->
+          <h2 class="central-title">Last minute</h2>
+          <div class="container my-5" id="last-minute">
+            <div class="row">
+                <!-- Image 1 -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <img src="./lastminute/australia.webp" class="img-fluid rounded" alt="australia">
+                </div>
+                <!-- Image 2 -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <img src="./lastminute/canada.avif" class="img-fluid rounded" alt="canada">
+                </div>
+                <!-- Image 3 -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <img src="./lastminute/cina.avif" class="img-fluid rounded" alt="cina">
+                </div>
+                <!-- Image 4 -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <img src="./lastminute/iran.avif" class="img-fluid rounded" alt="iran">
+                </div>
+                <!-- Image 5 -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <img src="./lastminute/marocco.webp" class="img-fluid rounded" alt="marocco">
+                </div>
+                <!-- Image 6 -->
+                <div class="col-12 col-md-4 col-lg-2 mb-4">
+                    <img src="./lastminute/nuovazelanda.avif" class="img-fluid rounded" alt="nuovazelanda">
+                </div>
+            </div>
+        </div>
+        <!--testimonial-->
+        <h2 class="central-title">Testimonial</h2>
+        <div class="container" id="testimonial">
+          <h5>Username</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores porro soluta exercitationem, corrupti dolore sequi! Eaque numquam eveniet expedita dicta! Voluptatem sequi officiis suscipit iure esse officia similique rerum, vitae exercitationem qui? Aut, recusandae culpa officia dignissimos enim perspiciatis.</p>
+          <!---->
+          <h5>Username</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores porro soluta exercitationem, corrupti dolore sequi! Eaque numquam eveniet expedita dicta! Voluptatem sequi officiis suscipit iure esse officia similique rerum, vitae exercitationem qui? Aut, recusandae culpa officia dignissimos enim perspiciatis.</p>
+          <!---->
+          <h5>Username</h5>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis asperiores porro soluta exercitationem, corrupti dolore sequi! Eaque numquam eveniet expedita dicta! Voluptatem sequi officiis suscipit iure esse officia similique rerum, vitae exercitationem qui? Aut, recusandae culpa officia dignissimos enim perspiciatis.</p>
+        </div>
+     <!--footer-->
+     <div class="container">
+        <footer class="text-center mt-4">
+            <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-secondary">Contattaci</button>
+            </div>
+            <p class="mt-3">Immagini bellissime fornite da: <a href="https://unsplash.com/it">Unsplash</a></p>
+        </footer>
+    </div>
+    
+    </div>
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+</html>
